@@ -8,7 +8,9 @@ window.addEventListener("load", ()=>{
     localStorage.setItem("shippingPrice", shippingPrice);
     sessionStorage.setItem("taxRate", taxRate);
     sessionStorage.setItem("shippingPrice", shippingPrice);
-    calculateCartTotal()
+
+    calculateCartTotal() 
+    // ? ilkgelen ürünlerin fiyatını bu şekilde yüklendiğinde yazdık.
 });
 
 //capturing method
